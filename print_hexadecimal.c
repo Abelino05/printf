@@ -18,6 +18,7 @@ int print_hex_base(va_list arg, char _case)
 
 	return (nbrCharacters);
 }
+
 /**
  * print_hex - prints a hexadecimal in lower case
  * @arg: list that contains hexadecimal to print
@@ -39,4 +40,3 @@ int print_HEX(va_list arg)
 {
 	return (print_hex_base(arg, 'A'));
 }
->>>>>>> test_branch
